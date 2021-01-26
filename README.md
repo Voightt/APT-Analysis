@@ -15,4 +15,13 @@ Each of these files were used to evaluate my research and help make a step towar
 - threat iocs.xlsx
 
 
+For the "IoCs-in-plaintext" branch:
+The files are split into two folders.
+
+For the Domains folder:
+This is a list of the domains that were compiled from all of the lists in the "IoC-lists" branch, and then multiple formats of the same lists were created in case Don Becker needed it when running it against the live network. The formatted file is how the domains had to be formatted and was requested to be put in that by Mr. Becker so that it could be compared. This was done using the pyhton script in the appendix of the paper.
+
+For the IP Addresses folder:
+This is a list of the IP addresses that were also compiled from the "IoC-lists" branch. It was also all done in multiple formats, but these were all in CIDR format since that was needed to compare against the live network.
+
 My results are found in the pdf that is in the main branch!
